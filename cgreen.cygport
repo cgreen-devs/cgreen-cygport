@@ -8,7 +8,8 @@ CATEGORY="Devel Utils Libs"
 
 SUMMARY="A modern C and C++ unit testing and mocking framework"
 
-DESCRIPTION="Cgreen uses a fluent API for constraints in the asserts
+DESCRIPTION="A modern C and C++ unit testing and mocking
+framework. Cgreen uses a fluent API for asserts and constraints
 which makes writing concise unit tests a breeze. Output for failing
 asserts are clear and descriptive. The optional runner will
 automatically find all your tests without you having to remember to
