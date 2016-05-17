@@ -1,6 +1,6 @@
 # package name
 NAME="cgreen"
-VERSION="1.0.0beta5"
+VERSION="1.0.0"
 RELEASE=1
 
 # setup.hint generation
@@ -17,13 +17,14 @@ add them to the test suite. All in all, awesome for TDD-ing."
 
 HOMEPAGE=https://github.com/cgreen-devs/cgreen
 
+# build dependencies
 DEPEND="cmake"
 
 # source and patch files
-SRC_URI=https://github.com/cgreen-devs/cgreen/archive/v1.0.0beta5.tar.gz
+SRC_URI=https://github.com/cgreen-devs/cgreen/archive/v1.0.0.tar.gz
 
 # prep
-SRC_DIR=cgreen-1.0.0beta5
+SRC_DIR=cgreen-1.0.0
 
 # compile
 inherit cmake
