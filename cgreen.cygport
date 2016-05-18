@@ -30,7 +30,7 @@ SRC_DIR=cgreen-1.0.0
 inherit cmake
 src_compile() {
     cd ${B}
-    cygcmake
+    cygcmake -DWITH_HTML:bool=true
     cygmake
 }
 
