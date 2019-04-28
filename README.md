@@ -1,8 +1,7 @@
 # cgreen-cygport
 Cygwin porting script for Cgreen
 
-Execute with
+Execute with your favourite cygport commands or
 
-    cygport cgreen.cygport <command>
-
-where <command> = "all" does most things you want.
+    cygport cgreen.cygport fetch
+    cygport cgreen.cygport all
